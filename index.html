@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -32,12 +36,15 @@
         <div class="top-contact">
           <ul class="top-contact_list unstyled-list">
             <li class="top-contact_item">
-              <a class="link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+              <a class="link" href="mailto:info@devstudio.com"></a>
+                <svg width="16" height="12">
+                  <use href="images/icons-svg.svg#icon-Mail"></use></svg> 
+              info@devstudio.com</a>
             </li>
             <li class="top-contact_item">
-              <a class="link" href="tel:+123456789">+1 212-772-4150</a>
+              <a class="link" href="tel:+123456789">
+                <svg width="10" height="16"><use href="images/icons-svg.svg#icon-smartphone"></use>
+                </svg>+1 212-772-4150</a>
             </li>
           </ul>
         </div>
@@ -71,15 +78,28 @@
           <ul class="our-values-section_list unstyled-list">
             <li class="value_item">
               <div class="flexbox-item flexbox-item-1">
-                <h5 class="value_title">ATTENTION TO DETAILS</h5>
-                <p class="value_description">
-                  We go into all the details and processes of your business to
-                  develop a customized solution.
-                </p>
+                <ul class="value_list">
+                  <li class="value__image"><a href="#"> <svg width="65" height="70">
+                         <use href="images/icons-svg.svg#icon-antenna"></use>
+                      </svg>
+                      </a>
+                  </li>
+                  <h5 class="value_title">ATTENTION TO DETAILS</h5>
+                  <p class="value_description">
+                    We go into all the details and processes of your business to
+                    develop a customized solution.
+                  </p>
+                </ul>
               </div>
             </li>
             <li class="value_item">
               <div class="flexbox-item flexbox-item-2">
+                <ul class="value_list">
+                  <li class="value__image"><a href="#"> <svg width="65" height="70">
+                         <use href="images/icons-svg.svg#icon-clock"></use>
+                      </svg>
+                      </a>
+                  </li>
                 <h5 class="value_title">PUNCTUALITY</h5>
                 <p class="value_description">
                   With us, you can feel safe and secure. An important principle
@@ -89,6 +109,12 @@
             </li>
             <li class="value_item">
               <div class="flexbox-item flexbox-item-3">
+                <ul class="value_list">
+                  <li class="value__image"><a href="#"> <svg width="65" height="70">
+                         <use href="images/icons-svg.svg#icon-diagram"></use>
+                      </svg>
+                      </a>
+                  </li>
                 <h5 class="value_title">PLANNING</h5>
                 <p class="value_description">
                   You will be able to observe and participate in every phase of
@@ -98,6 +124,12 @@
             </li>
             <li class="value_item">
               <div class="flexbox-item flexbox-item-4">
+                <ul class="value_list">
+                  <li class="value__image"><a href="#"> <svg width="65" height="70">
+                         <use href="images/icons-svg.svg#icon-astronaut"></use>
+                      </svg>
+                      </a>
+                  </li>
                 <h5 class="value_title">MODERN TECHNOLOGIES</h5>
                 <p class="value_description">
                   We use innovative tools to solve assigned tasks. It's time to
@@ -160,6 +192,34 @@
                 <h4 class="image-title">Christopher Walker</h4>
                 <p class="image-description">Product Designer</p>
               </div>
+              <div>
+                <ul class="socila-media unstyled-list">
+                  <li class="social-media_item"><a href="#">
+                    <svg width="20" height="20"> <use href="images/icons-svg.svg#icon-instagram"></use> 
+                    </svg></a>
+                  </li>
+
+                  <li class="social-media_item">
+                    <a href="#">
+                    <svg width="20" height="20"> <use href="images/icons-svg.svg#icon-twitter"></use> 
+                    </svg></a>
+                    
+                  </li>
+
+                  <li class="social-media_item">
+                    <a href="#">
+                    <svg width="20" height="20"> <use href="images/icons-svg.svg#icon-Facebook"></use> 
+                    </svg></a>
+                  </li>
+
+                  <li class="social-media_item">
+                    <a href="#">
+                    <svg width="20" height="20"> <use href="images/icons-svg.svg#icon-Linkedin"></use> 
+                    </svg></a>
+                  </li>
+
+                </ul>
+              </div>
             </li>
 
             <li class="our-team-section_item employee_card">
@@ -169,8 +229,33 @@
                 width="270"
                 height="260"
               />
+            <div class="employee_details">
               <h4 class="image-title">Kylie Evans</h4>
               <p class="image-description">Frontend Developer</p>
+            </div>
+            <div>
+              <ul class="socila-media unstyled-list">
+                  <li class="social-media_item"><a href="#">
+                    <svg width="20" height="20"> <use href="images/icons-svg.svg#icon-instagram"></use> 
+                    </svg></a>
+                  </li>
+                  <li class="social-media_item">
+                    <a href="#">
+                    <svg width="20" height="20"> <use href="images/icons-svg.svg#icon-twitter"></use> 
+                    </svg></a>
+                  </li>
+                  <li class="social-media_item">
+                    <a href="#">
+                    <svg width="20" height="20"> <use href="images/icons-svg.svg#icon-Facebook"></use> 
+                    </svg></a>
+                  </li>
+                  <li class="social-media_item">
+                    <a href="#">
+                    <svg width="20" height="20"> <use href="images/icons-svg.svg#icon-Linkedin"></use> 
+                    </svg></a>
+                  </li>
+                </ul>
+            </div>
             </li>
 
             <li class="our-team-section_item employee_card">
@@ -180,8 +265,34 @@
                 width="270"
                 height="260"
               />
-              <h4 class="image-title">Ryan Harris</h4>
-              <p class="image-description">Marketing</p>
+              <div class="employee_details">
+                <h4 class="image-title">Ryan Harris</h4>
+                <p class="image-description">Marketing</p>
+              </div>
+              <div>
+                <ul class="socila-media unstyled-list">
+                  <li class="social-media_item"><a href="#">
+                    <svg width="20" height="20"> <use href="images/icons-svg.svg#icon-instagram"></use> 
+                    </svg></a>
+                  </li>
+                  <li class="social-media_item">
+                    <a href="#">
+                    <svg width="20" height="20"> <use href="images/icons-svg.svg#icon-twitter"></use> 
+                    </svg></a>
+                  </li>
+                  <li class="social-media_item">
+                    <a href="#">
+                    <svg width="20" height="20"> <use href="images/icons-svg.svg#icon-Facebook"></use> 
+                    </svg></a>
+                  </li>
+                  <li class="social-media_item">
+                    <a href="#">
+                    <svg width="20" height="20"> <use href="images/icons-svg.svg#icon-Linkedin"></use> 
+                    </svg></a>
+                  </li>
+                </ul>
+            </div>
+
             </li>
 
             <li class="our-team-section_item employee_card">
@@ -191,8 +302,67 @@
                 width="270"
                 height="260"
               />
-              <h4 class="image-title">Tyler Moore</h4>
-              <p class="image-description">UI Designer</p>
+              <div class="employee_details">
+                <h4 class="image-title">Tyler Moore</h4>
+                <p class="image-description">UI Designer</p>
+              </div>
+              <div>
+                <ul class="socila-media unstyled-list">
+                  <li class="social-media_item"><a href="#">
+                    <svg width="20" height="20"> <use href="images/icons-svg.svg#icon-instagram"></use> 
+                    </svg></a>
+                  </li>
+                  <li class="social-media_item">
+                    <a href="#">
+                    <svg width="20" height="20"> <use href="images/icons-svg.svg#icon-twitter"></use> 
+                    </svg></a>
+                  </li>
+                  <li class="social-media_item">
+                    <a href="#">
+                    <svg width="20" height="20"> <use href="images/icons-svg.svg#icon-Facebook"></use> 
+                    </svg></a>
+                  </li>
+                  <li class="social-media_item">
+                    <a href="#">
+                    <svg width="20" height="20"> <use href="images/icons-svg.svg#icon-Linkedin"></use> 
+                    </svg></a>
+                  </li>
+                </ul>
+            </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Regular Customers Section-->
+      
+      <section class="regular-customer-section section">
+        <div class="container">
+          <h2 class="section_subtitle"> Regular Customers </h2>
+          <ul class="regular-customer-section_list unstyled-list">
+            <li class="regular-customer-section_item">
+              <a href="#"> <svg width="170" height="92"> <use xlink:href="./images/icons-svg.svg#icon-Client-1"></use></svg>
+              </a>
+            </li>
+            <li class="regular-customer-section_item">
+              <a href="#"> <svg width="170" height="92"> <use xlink:href="./images/icons-svg.svg#icon-Client-2"></use></svg>
+              </a>
+            </li>
+            <li class="regular-customer-section_item">
+              <a href="#"> <svg width="170" height="92"> <use xlink:href="./images/icons-svg.svg#icon-Client-3"></use></svg>
+              </a>
+            </li>
+            <li class="regular-customer-section_item">
+              <a href="#"> <svg width="170" height="92"> <use xlink:href="./images/icons-svg.svg#icon-Client-4"></use></svg>
+              </a>
+            </li>
+            <li class="regular-customer-section_item">
+              <a href="#"> <svg width="170" height="92"> <use xlink:href="./images/icons-svg.svg#icon-Client-5"></use></svg>
+              </a>
+            </li>
+            <li class="regular-customer-section_item">
+              <a href="#"> <svg width="170" height="92"> <use xlink:href="./images/icons-svg.svg#icon-Client-6"></use></svg>
+              </a>
             </li>
           </ul>
         </div>
