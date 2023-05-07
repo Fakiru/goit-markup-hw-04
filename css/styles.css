@@ -393,6 +393,9 @@ html {
   background: #f5f4fa;
   cursor: pointer;
   border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .project-section-button_item-web {
@@ -407,6 +410,9 @@ html {
   background: #f5f4fa;
   cursor: pointer;
   border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .project-section-button_item-apps {
@@ -421,6 +427,9 @@ html {
   background: #f5f4fa;
   cursor: pointer;
   border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .project-section-button_item-design {
@@ -435,6 +444,9 @@ html {
   background: #f5f4fa;
   cursor: pointer;
   border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .project-section-button_item-marketing {
@@ -449,14 +461,22 @@ html {
   background: #f5f4fa;
   cursor: pointer;
   border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.project-section-button_list a:hover,
+.project-section-button_list a:focus {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .top-contact_item a:hover,
-.top-contact_item a:focus,
-.project-section-button_list a:hover,
-.project-section-button_list a:focus {
+.top-contact_item a:focus {
   color: #2196f3;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .top-contact_item a {
