@@ -56,6 +56,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .regular-customer-section_item a {
@@ -94,6 +95,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .social-media_item a {
@@ -484,6 +486,7 @@ html {
   display: flex;
   gap: 10px;
   align-items: flex-end;
+  position: absolute;
 }
 
 .top-contact_item svg {
@@ -506,6 +509,7 @@ html {
   padding-bottom: 27px;
   border-bottom: 4px solid #2196f3;
   border-radius: 2px;
+  cursor: pointer;
 }
 
 .header-section-nav_item .nav_link {
@@ -515,6 +519,7 @@ html {
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .header-section-nav_item a:focus::after {
@@ -609,6 +614,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .footer-social-media_item a {
